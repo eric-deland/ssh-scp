@@ -2,7 +2,7 @@ name: scp files
 on:
   push:
     branches:
-      - latest
+      - master
 
 env:
   TARGET_DIR: /home/github/test
